@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fb;
+    color: #333;
+}
+
+/* HEADER */
+
+header {
+    background-color: #172554;
+    color: white;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #60a5fa;
+}
+
+/* TRANG CHỦ */
+
+.home {
+    min-height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 12%;
+}
+
+.home-text {
+    width: 55%;
+}
+
+.hello {
+    color: #2563eb;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.home h2 {
+    font-size: 45px;
+    margin: 15px 0;
+}
+
+.home h2 span {
+    color: #2563eb;
+}
+
+.home-text p {
+    line-height: 1.8;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 25px;
+    background-color: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.button:hover {
+    background-color: #1d4ed8;
+}
+
+/* AVATAR */
+
+.avatar {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: #2563eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 10px 30px #aaa;
+}
+
+.avatar div {
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2563eb;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+/* CÁC TRANG */
+
+.page {
+    min-height: 75vh;
+    padding: 50px 10%;
+}
+
+.page > h2 {
+    text-align: center;
+    font-size: 35px;
+    color: #172554;
+    margin-bottom: 35px;
+}
+
+/* ABOUT */
+
+.card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px #ddd;
+    max-width: 800px;
+    margin: auto;
+}
+
+.card h3 {
+    color: #2563eb;
+    margin-bottom: 15px;
+}
+
+.card p {
+    line-height: 1.8;
+    margin-bottom: 10px;
+}
+
+.info {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.info div {
+    background-color: white;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px #ddd;
+}
+
+.info h3 {
+    color: #2563eb;
+    margin-bottom: 10px;
+}
+
+/* SOFT SKILL */
+
+.skill-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.skill {
+    background-color: white;
+    width: 220px;
+    padding: 25px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px #ddd;
+    transition: 0.3s;
+}
+
+.skill:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px #bbb;
+}
+
+.icon {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.skill h3 {
+    color: #2563eb;
+    margin-bottom: 10px;
+}
+
+.skill p {
+    line-height: 1.6;
+}
+
+/* PRODUCT */
+
+.product-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.product {
+    background-color: white;
+    width: 280px;
+    padding: 25px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px #ddd;
+    transition: 0.3s;
+}
+
+.product:hover {
+    transform: translateY(-8px);
+}
+
+.product-icon {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.product h3 {
+    color: #2563eb;
+    margin-bottom: 15px;
+}
+
+.product p {
+    line-height: 1.6;
+    min-height: 75px;
+}
+
+.product button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #2563eb;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.product button:hover {
+    background-color: #1d4ed8;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #172554;
+    color: white;
+    text-align: center;
+    padding: 18px;
+}
